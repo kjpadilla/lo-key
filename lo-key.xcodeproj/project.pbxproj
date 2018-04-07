@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F113ED1C207990B400308064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED1B207990B400308064 /* AppDelegate.swift */; };
+		F113ED1E207990B400308064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED1D207990B400308064 /* ViewController.swift */; };
+		F113ED21207990B400308064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F113ED1F207990B400308064 /* Main.storyboard */; };
+		F113ED23207990B500308064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F113ED22207990B500308064 /* Assets.xcassets */; };
+		F113ED26207990B500308064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F113ED24207990B500308064 /* LaunchScreen.storyboard */; };
+		F113ED31207990B600308064 /* lo_keyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED30207990B600308064 /* lo_keyTests.swift */; };
+		F113ED3C207990B600308064 /* lo_keyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED3B207990B600308064 /* lo_keyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F113ED2D207990B600308064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F113ED10207990B400308064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F113ED17207990B400308064;
+			remoteInfo = "lo-key";
+		};
+		F113ED38207990B600308064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F113ED10207990B400308064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F113ED17207990B400308064;
+			remoteInfo = "lo-key";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F113ED18207990B400308064 /* lo-key.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lo-key.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F113ED1B207990B400308064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F113ED1D207990B400308064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F113ED20207990B400308064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F113ED22207990B500308064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F113ED25207990B500308064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F113ED27207990B500308064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F113ED2C207990B600308064 /* lo-keyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lo-keyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F113ED30207990B600308064 /* lo_keyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lo_keyTests.swift; sourceTree = "<group>"; };
+		F113ED32207990B600308064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F113ED37207990B600308064 /* lo-keyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lo-keyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F113ED3B207990B600308064 /* lo_keyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lo_keyUITests.swift; sourceTree = "<group>"; };
+		F113ED3D207990B600308064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F113ED15207990B400308064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113ED29207990B600308064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113ED34207990B600308064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F113ED0F207990B400308064 = {
+			isa = PBXGroup;
+			children = (
+				F113ED1A207990B400308064 /* lo-key */,
+				F113ED2F207990B600308064 /* lo-keyTests */,
+				F113ED3A207990B600308064 /* lo-keyUITests */,
+				F113ED19207990B400308064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F113ED19207990B400308064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F113ED18207990B400308064 /* lo-key.app */,
+				F113ED2C207990B600308064 /* lo-keyTests.xctest */,
+				F113ED37207990B600308064 /* lo-keyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F113ED1A207990B400308064 /* lo-key */ = {
+			isa = PBXGroup;
+			children = (
+				F113ED1B207990B400308064 /* AppDelegate.swift */,
+				F113ED1D207990B400308064 /* ViewController.swift */,
+				F113ED1F207990B400308064 /* Main.storyboard */,
+				F113ED22207990B500308064 /* Assets.xcassets */,
+				F113ED24207990B500308064 /* LaunchScreen.storyboard */,
+				F113ED27207990B500308064 /* Info.plist */,
+			);
+			path = "lo-key";
+			sourceTree = "<group>";
+		};
+		F113ED2F207990B600308064 /* lo-keyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F113ED30207990B600308064 /* lo_keyTests.swift */,
+				F113ED32207990B600308064 /* Info.plist */,
+			);
+			path = "lo-keyTests";
+			sourceTree = "<group>";
+		};
+		F113ED3A207990B600308064 /* lo-keyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F113ED3B207990B600308064 /* lo_keyUITests.swift */,
+				F113ED3D207990B600308064 /* Info.plist */,
+			);
+			path = "lo-keyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F113ED17207990B400308064 /* lo-key */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F113ED40207990B600308064 /* Build configuration list for PBXNativeTarget "lo-key" */;
+			buildPhases = (
+				F113ED14207990B400308064 /* Sources */,
+				F113ED15207990B400308064 /* Frameworks */,
+				F113ED16207990B400308064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lo-key";
+			productName = "lo-key";
+			productReference = F113ED18207990B400308064 /* lo-key.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F113ED2B207990B600308064 /* lo-keyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F113ED43207990B600308064 /* Build configuration list for PBXNativeTarget "lo-keyTests" */;
+			buildPhases = (
+				F113ED28207990B600308064 /* Sources */,
+				F113ED29207990B600308064 /* Frameworks */,
+				F113ED2A207990B600308064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F113ED2E207990B600308064 /* PBXTargetDependency */,
+			);
+			name = "lo-keyTests";
+			productName = "lo-keyTests";
+			productReference = F113ED2C207990B600308064 /* lo-keyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F113ED36207990B600308064 /* lo-keyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F113ED46207990B600308064 /* Build configuration list for PBXNativeTarget "lo-keyUITests" */;
+			buildPhases = (
+				F113ED33207990B600308064 /* Sources */,
+				F113ED34207990B600308064 /* Frameworks */,
+				F113ED35207990B600308064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F113ED39207990B600308064 /* PBXTargetDependency */,
+			);
+			name = "lo-keyUITests";
+			productName = "lo-keyUITests";
+			productReference = F113ED37207990B600308064 /* lo-keyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F113ED10207990B400308064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Lock and Key Love Inc.";
+				TargetAttributes = {
+					F113ED17207990B400308064 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F113ED2B207990B600308064 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F113ED17207990B400308064;
+					};
+					F113ED36207990B600308064 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F113ED17207990B400308064;
+					};
+				};
+			};
+			buildConfigurationList = F113ED13207990B400308064 /* Build configuration list for PBXProject "lo-key" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F113ED0F207990B400308064;
+			productRefGroup = F113ED19207990B400308064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F113ED17207990B400308064 /* lo-key */,
+				F113ED2B207990B600308064 /* lo-keyTests */,
+				F113ED36207990B600308064 /* lo-keyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F113ED16207990B400308064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F113ED26207990B500308064 /* LaunchScreen.storyboard in Resources */,
+				F113ED23207990B500308064 /* Assets.xcassets in Resources */,
+				F113ED21207990B400308064 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113ED2A207990B600308064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113ED35207990B600308064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F113ED14207990B400308064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F113ED1E207990B400308064 /* ViewController.swift in Sources */,
+				F113ED1C207990B400308064 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113ED28207990B600308064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F113ED31207990B600308064 /* lo_keyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113ED33207990B600308064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F113ED3C207990B600308064 /* lo_keyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F113ED2E207990B600308064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F113ED17207990B400308064 /* lo-key */;
+			targetProxy = F113ED2D207990B600308064 /* PBXContainerItemProxy */;
+		};
+		F113ED39207990B600308064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F113ED17207990B400308064 /* lo-key */;
+			targetProxy = F113ED38207990B600308064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F113ED1F207990B400308064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F113ED20207990B400308064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F113ED24207990B500308064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F113ED25207990B500308064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F113ED3E207990B600308064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F113ED3F207990B600308064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F113ED41207990B600308064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q35XQ4V3W7;
+				INFOPLIST_FILE = "lo-key/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LockAndKeyInc.lo-key";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F113ED42207990B600308064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q35XQ4V3W7;
+				INFOPLIST_FILE = "lo-key/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LockAndKeyInc.lo-key";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F113ED44207990B600308064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q35XQ4V3W7;
+				INFOPLIST_FILE = "lo-keyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LockAndKeyInc.lo-keyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lo-key.app/lo-key";
+			};
+			name = Debug;
+		};
+		F113ED45207990B600308064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q35XQ4V3W7;
+				INFOPLIST_FILE = "lo-keyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LockAndKeyInc.lo-keyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lo-key.app/lo-key";
+			};
+			name = Release;
+		};
+		F113ED47207990B600308064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q35XQ4V3W7;
+				INFOPLIST_FILE = "lo-keyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LockAndKeyInc.lo-keyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lo-key";
+			};
+			name = Debug;
+		};
+		F113ED48207990B600308064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q35XQ4V3W7;
+				INFOPLIST_FILE = "lo-keyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LockAndKeyInc.lo-keyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lo-key";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F113ED13207990B400308064 /* Build configuration list for PBXProject "lo-key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F113ED3E207990B600308064 /* Debug */,
+				F113ED3F207990B600308064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F113ED40207990B600308064 /* Build configuration list for PBXNativeTarget "lo-key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F113ED41207990B600308064 /* Debug */,
+				F113ED42207990B600308064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F113ED43207990B600308064 /* Build configuration list for PBXNativeTarget "lo-keyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F113ED44207990B600308064 /* Debug */,
+				F113ED45207990B600308064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F113ED46207990B600308064 /* Build configuration list for PBXNativeTarget "lo-keyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F113ED47207990B600308064 /* Debug */,
+				F113ED48207990B600308064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F113ED10207990B400308064 /* Project object */;
+}
