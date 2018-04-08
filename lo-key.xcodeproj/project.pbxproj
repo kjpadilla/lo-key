@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F113ED1C207990B400308064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED1B207990B400308064 /* AppDelegate.swift */; };
-		F113ED1E207990B400308064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED1D207990B400308064 /* ViewController.swift */; };
+		F113ED1E207990B400308064 /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED1D207990B400308064 /* MainMenuController.swift */; };
 		F113ED21207990B400308064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F113ED1F207990B400308064 /* Main.storyboard */; };
 		F113ED23207990B500308064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F113ED22207990B500308064 /* Assets.xcassets */; };
 		F113ED26207990B500308064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F113ED24207990B500308064 /* LaunchScreen.storyboard */; };
 		F113ED31207990B600308064 /* lo_keyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED30207990B600308064 /* lo_keyTests.swift */; };
 		F113ED3C207990B600308064 /* lo_keyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED3B207990B600308064 /* lo_keyUITests.swift */; };
+		F113ED4B207999E000308064 /* UILabel+InsepectableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113ED4A207999E000308064 /* UILabel+InsepectableOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		F113ED18207990B400308064 /* lo-key.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lo-key.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F113ED1B207990B400308064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F113ED1D207990B400308064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F113ED1D207990B400308064 /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
 		F113ED20207990B400308064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F113ED22207990B500308064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F113ED25207990B500308064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		F113ED37207990B600308064 /* lo-keyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lo-keyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F113ED3B207990B600308064 /* lo_keyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lo_keyUITests.swift; sourceTree = "<group>"; };
 		F113ED3D207990B600308064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F113ED4A207999E000308064 /* UILabel+InsepectableOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+InsepectableOptions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		F113ED1A207990B400308064 /* lo-key */ = {
 			isa = PBXGroup;
 			children = (
+				F113ED492079998600308064 /* Extensions */,
 				F113ED1B207990B400308064 /* AppDelegate.swift */,
-				F113ED1D207990B400308064 /* ViewController.swift */,
+				F113ED1D207990B400308064 /* MainMenuController.swift */,
 				F113ED1F207990B400308064 /* Main.storyboard */,
 				F113ED22207990B500308064 /* Assets.xcassets */,
 				F113ED24207990B500308064 /* LaunchScreen.storyboard */,
@@ -123,6 +126,14 @@
 				F113ED3D207990B600308064 /* Info.plist */,
 			);
 			path = "lo-keyUITests";
+			sourceTree = "<group>";
+		};
+		F113ED492079998600308064 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F113ED4A207999E000308064 /* UILabel+InsepectableOptions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F113ED1E207990B400308064 /* ViewController.swift in Sources */,
+				F113ED1E207990B400308064 /* MainMenuController.swift in Sources */,
+				F113ED4B207999E000308064 /* UILabel+InsepectableOptions.swift in Sources */,
 				F113ED1C207990B400308064 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
